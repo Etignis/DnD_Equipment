@@ -1570,7 +1570,7 @@ window.onload = function(){
       var sName = (oParams && oParams.fRandom==true)? "" :sHash.match(/\bq=([А-Яа-яЁё\/\w\d_-]+)/);
 
       var sLang = sHash.match(/\blang=([\w]+)/) || ["","ru"];
-      var sView = sHash.match(/\bview=([\w]+)/) || ["","text"];
+      var sView = sHash.match(/\bview=([\w]+)/) || ["","card"];
       var sSort = sHash.match(/\bsort=([\w_]+)/) || ["","rarity_alpha"];
 
      // var sRarities = sHash.match(/\brarity=([\w,]+)/);
