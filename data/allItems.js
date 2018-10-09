@@ -1468,5 +1468,710 @@ var allItems = [
 			
 			"text": "",
 		}
-	}	
+	}, {
+		"en": {
+			"name": "Abacus",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Abacus.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Счеты",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Acid (vial)",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "25 gp",
+			"source": "PHB",
+			"img": "Acid.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Кислота (Флакон)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Alchemist's fire (flask)",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "50 gp",
+			"source": "PHB",
+			"img": "Alchemists_fire.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Алхимический огонь (фляжка)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Arrows (20)",
+			"type": "Ammunition",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Arrows.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Стрелы (20)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Blowgun needles (50)",
+			"type": "Ammunition",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Blowgun_needles.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "СИглы для трубки (50)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Crossbow bolts (20)",
+			"type": "Ammunition",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Crossbow_bolts.jpg",
+			"weight": "1.5"
+		},
+		"ru": {
+			"name": "Арбалетные болты (20)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Sling bullets (20)",
+			"type": "Ammunition",
+			"rarity": 0,
+			"text": "",
+			"coast": "4 cp",
+			"source": "PHB",
+			"img": "ling_bullets.jpg",
+			"weight": "1.5"
+		},
+		"ru": {
+			"name": "Снаряды для пращи (20)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Antitoxin (vial)",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "50 gp",
+			"source": "PHB",
+			"img": "Antitoxin.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Противоядие (флакон)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Crystal",
+			"type": "Arcane Focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Crystal.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Кристалл",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Orb",
+			"type": "Arcane Focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "20 gp",
+			"source": "PHB",
+			"img": "Orb.jpg",
+			"weight": "3"
+		},
+		"ru": {
+			"name": "Сфера",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Rod",
+			"type": "Arcane Focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Rod.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Жезл",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Staff",
+			"type": "Arcane Focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Staff.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Посох",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Wand",
+			"type": "Arcane Focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Wand.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Волшебная палочка",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Backpack",
+			"type": "Container",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Backpack.jpg",
+			"weight": "5"
+		},
+		"ru": {
+			"name": "Рюкзак",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Ball bearings (bag of 1000)",
+			"type": "control",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Ball_bearings.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Металлические шарики (сумка с 1000 шт.)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Barrei",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Barrei.jpg",
+			"weight": "70"
+		},
+		"ru": {
+			"name": "Бочка",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Basket",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "4 sp",
+			"source": "PHB",
+			"img": "Basket.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Бочка",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Bedroll",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Bedroll.jpg",
+			"weight": "7"
+		},
+		"ru": {
+			"name": "Спальник",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Bell",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Bell.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Колокольчик",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Blanket",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 sp",
+			"source": "PHB",
+			"img": "Blanket.jpg",
+			"weight": "3"
+		},
+		"ru": {
+			"name": "Одеяло",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Block and tackle",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 sp",
+			"source": "PHB",
+			"img": "Block_and_tackle.jpg",
+			"weight": "5"
+		},
+		"ru": {
+			"name": "Блок и лебедка",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Book",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "25 gp",
+			"source": "PHB",
+			"img": "Book.jpg",
+			"weight": "5"
+		},
+		"ru": {
+			"name": "Книга",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Bucket",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 cp",
+			"source": "PHB",
+			"img": "Bucket.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Ведро",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Caltrops (bag of 20)",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Caltrops.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Калтропы (сумка 20 шт.)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Candle",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 cp",
+			"source": "PHB",
+			"img": "Candle.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Свеча",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Case, crossbow bolt",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Case_crossbow.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Колчан для болтов",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Case, map or scroll",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Case_ыскщдды.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Футляр для документов",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Chain (10 feet)",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Chain.jpg",
+			"weight": "10"
+		},
+		"ru": {
+			"name": "Цепь (10 футов)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Chalk (l piece)",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 cp",
+			"source": "PHB",
+			"img": "Chalk.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Мел (1 кусок)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Chest",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Chest.jpg",
+			"weight": "25"
+		},
+		"ru": {
+			"name": "Мел (1 кусок)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Climber's kit",
+			"type": "kit",
+			"rarity": 0,
+			"text": "",
+			"coast": "25 gp",
+			"source": "PHB",
+			"img": "Climbers_kit.jpg",
+			"weight": "12"
+		},
+		"ru": {
+			"name": "Комплект для лазания",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Clothes, common",
+			"type": "Clothes",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 sp",
+			"source": "PHB",
+			"img": "Clothes_common.jpg",
+			"weight": "3"
+		},
+		"ru": {
+			"name": "Одежда, обычная",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Clothes, costume",
+			"type": "Clothes",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Clothes_costume.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Одежда, костюм",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Clothes, fine",
+			"type": "Clothes",
+			"rarity": 0,
+			"text": "",
+			"coast": "15 gp",
+			"source": "PHB",
+			"img": "Clothes_fine.jpg",
+			"weight": "6"
+		},
+		"ru": {
+			"name": "Одежда, отличная",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Clothes, traveler's",
+			"type": "Clothes",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Clothes_travelers.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Одежда, дорожная",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Component pouch",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "25 gp",
+			"source": "PHB",
+			"img": "Component_pouch.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Мешочек с компонентами",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Crowbar",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Crowbar.jpg",
+			"weight": "5"
+		},
+		"ru": {
+			"name": "Ломик",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Sprig of mistletoe",
+			"type": "Druidic focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Sprig_of_mistletoe.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Веточка омелы",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Totem",
+			"type": "Druidic focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Totem.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Тотем",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Wooden staff",
+			"type": "Druidic focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Wooden_staff.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Деревянный посох",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Yew wand",
+			"type": "Druidic focus",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Yew_wand.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Тисовая палочка",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Fishing tackle",
+			"type": "kit",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Fishing_tackle.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Комплект для рыбалки",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Flask or tankard",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 cp",
+			"source": "PHB",
+			"img": "Flask_or_tankard.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Фляга или большая кружка",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Grappling hook",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Grappling_hook.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Крюк-кошка",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Hammer",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Hammer.jpg",
+			"weight": "3"
+		},
+		"ru": {
+			"name": "Молоток",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Hammer, sledge",
+			"type": "smth",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Hammer_sledge.jpg",
+			"weight": "10"
+		},
+		"ru": {
+			"name": "Молот кузнечный",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Healer's kit",
+			"type": "kit",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Healers_kit.jpg",
+			"weight": "10"
+		},
+		"ru": {
+			"name": "Комплект целителя",			
+			"text": "",
+		}
+	}
 ]
