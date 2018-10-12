@@ -1647,7 +1647,7 @@ window.onload = function(){
       }			
 						
       if(sTypes && sTypes[1]) {
-      	var aTypes = sTypes[1].replace("_", " ").split(",");
+      	var aTypes = sTypes[1].replace(/_/g, " ").split(",");
 				
       	$("#TypeCombobox .combo_box_content input[type='checkbox']").each(function(){
       		if(aTypes.indexOf($(this).val())>-1) {
@@ -1656,7 +1656,7 @@ window.onload = function(){
       			$(this).prop('checked', false);
       		}
       	});
-      	$("#TypeCombobox .combo_box_title").attr("data-val", sTypes[1].replace("_", " "))
+      	$("#TypeCombobox .combo_box_title").attr("data-val", sTypes[1].replace(/_/g, " "))
 				if(sTypes[1].indexOf("armor")>-1) {
 					createArmorSubTypeCombobox(true);
 				}
@@ -1676,7 +1676,7 @@ window.onload = function(){
       if(aArmorAddTypes && aArmorAddTypes[1]) {
 				//createArmorSubTypeCombobox(true);
 				
-      	var aArmorAddTypes = aArmorAddTypes[1].replace("_", " ").split(",");
+      	var aArmorAddTypes = aArmorAddTypes[1].replace(/_/g, " ").split(",");
 
       	$("#ArmorTypeAddCombobox .combo_box_content input[type='checkbox']").each(function(){
       		if(aArmorAddTypes.indexOf($(this).val())>-1) {
@@ -1685,14 +1685,14 @@ window.onload = function(){
       			$(this).prop('checked', false);
       		}
       	});
-      	$("#ArmorTypeAddCombobox .combo_box_title").attr("data-val", aArmorAddTypes[1].replace("_", " "))
+      	$("#ArmorTypeAddCombobox .combo_box_title").attr("data-val", aArmorAddTypes[1].replace(/_/g, " "))
       } else {
 				$("#ArmorTypeAddCombobox .combo_box_content input[type='checkbox']").prop('checked', false);
 				$("#ArmorTypeAddCombobox .combo_box_title").attr("data-val", "")
 			}		
       if(aWeaponAddTypes && aWeaponAddTypes[1]) {
 				//createWeaponSubTypeCombobox(true);
-      	var aWeaponAddTypes = aWeaponAddTypes[1].replace("_", " ").split(",");
+      	var aWeaponAddTypes = aWeaponAddTypes[1].replace(/_/g, " ").split(",");
 
       	$("#WeaponTypeAddCombobox .combo_box_content input[type='checkbox']").each(function(){
       		if(aWeaponAddTypes.indexOf($(this).val())>-1) {
@@ -1701,7 +1701,7 @@ window.onload = function(){
       			$(this).prop('checked', false);
       		}
       	});
-      	$("#WeaponTypeAddCombobox .combo_box_title").attr("data-val", aWeaponAddTypes[1].replace("_", " "))
+      	$("#WeaponTypeAddCombobox .combo_box_title").attr("data-val", aWeaponAddTypes[1].replace(/_/g, " "))
       } else {
 				$("#WeaponTypeAddCombobox .combo_box_content input[type='checkbox']").prop('checked', false);
 				$("#WeaponTypeAddCombobox .combo_box_title").attr("data-val", "")
@@ -1709,7 +1709,7 @@ window.onload = function(){
 			
       if(aPropsTypes && aPropsTypes[1]) {
 		//		createPropsCombobox(true);
-      	var aRarities = aPropsTypes[1].replace("_", " ").split(",");
+      	var aRarities = aPropsTypes[1].replace(/_/g, " ").split(",");
 
       	$("#PropsCombobox .combo_box_content input[type='checkbox']").each(function(){
       		if(aRarities.indexOf($(this).val())>-1) {
@@ -1718,14 +1718,14 @@ window.onload = function(){
       			$(this).prop('checked', false);
       		}
       	});
-      	$("#PropsCombobox .combo_box_title").attr("data-val", aPropsTypes[1].replace("_", " "))
+      	$("#PropsCombobox .combo_box_title").attr("data-val", aPropsTypes[1].replace(/_/g, " "))
       } else {
 				$("#PropsCombobox .combo_box_content input[type='checkbox']").prop('checked', false);
 				$("#PropsCombobox .combo_box_title").attr("data-val", "")
 			}
 			
       if(sSources && sSources[1]) {
-      	var aSources = sSources[1].replace("_", " ").split(",");
+      	var aSources = sSources[1].replace(/_/g, " ").split(",");
 
       	$("#SourceCombobox .combo_box_content input[type='checkbox']").each(function(){
       		if(aSources.indexOf($(this).val())>-1) {
@@ -1734,7 +1734,7 @@ window.onload = function(){
       			$(this).prop('checked', false);
       		}
       	});
-      	$("#SourceCombobox .combo_box_title").attr("data-val", sSources[1].replace("_", " "))
+      	$("#SourceCombobox .combo_box_title").attr("data-val", sSources[1].replace(/_/g, " "))
       } else {
 				$("#SourceCombobox .combo_box_content input[type='checkbox']").prop('checked', false);
       	$("#SourceCombobox .combo_box_title").attr("data-val", "")
