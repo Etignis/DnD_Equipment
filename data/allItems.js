@@ -52,6 +52,12 @@ var oTypes = {
         "gender": "she"
       }
     },
+		"subTypes": [
+			"light",
+			"medium",
+			"heavy",
+			"simple"
+		],
 	"img": "type_armor.jpg"
   },
   "weapon": {
@@ -64,103 +70,159 @@ var oTypes = {
         "gender": "it"
       }
     },
+		"subTypes": [
+			"simple",
+			"melee",
+			"ranged",
+			"martial"
+		],
 	"img": "type_weapon.jpg"
-  }/*/,
-  "ring": {
+  },
+	"ammunition": {
     "text": {
       "en": {
-        "title": "ring"
+        "title": "ammunition"
       },
       "ru": {
-        "title": "кольцо",
+        "title": "боеприпас",
+        "gender": "they"
+      }
+    },
+	"img": "type_ammunition.jpg"
+  },
+	"consumables": {
+    "text": {
+      "en": {
+        "title": "consumables"
+      },
+      "ru": {
+        "title": "расходник",
+        "gender": "he"
+      }
+    },
+	"img": "type_consumables.jpg"
+  },
+  "kit": {
+    "text": {
+      "en": {
+        "title": "kit"
+      },
+      "ru": {
+        "title": "набор",
+        "gender": "he"
+      }
+    },
+	"img": "type_kit.jpg"
+  },
+	"tool": {
+    "text": {
+      "en": {
+        "title": "tool"
+      },
+      "ru": {
+        "title": "инструмент",
+        "gender": "he"
+      }
+    },
+	"img": "type_tool.jpg"
+  },
+  "gear": {
+    "text": {
+      "en": {
+        "title": "gear"
+      },
+      "ru": {
+        "title": "приспособление",
         "gender": "it"
       }
     },
-	"img": "type_ring.jpg"
+	"img": "type_gear.jpg"
   },
-  "wondrous item": {
+  "container": {
     "text": {
       "en": {
-        "title": "wondrous item"
+        "title": "container"
       },
       "ru": {
-        "title": "чудо-вещь",
+        "title": "ёмкость",
+        "gender": "he"
+      }
+    },
+	"img": "type_container.jpg"
+  },  
+  "arcane focus": {
+    "text": {
+      "en": {
+        "title": "arcane focus"
+      },
+      "ru": {
+        "title": "фокусирвка магическая",
         "gender": "she"
       }
     },
-	"img": "type_wondrous_item.jpg"
+	"img": "type_focus.jpg"
   },
-  "wand": {
+	"druidic focus": {
     "text": {
       "en": {
-        "title": "wand"
+        "title": "druidic focus"
       },
       "ru": {
-        "title": "волшебная палочка",
+        "title": "фокусировка друидская",
         "gender": "she"
       }
     },
-	"img": "type_wand.jpg"
+	"img": "type_focus.jpg"
   },
-  "rod": {
+	 "holly simbol": {
     "text": {
       "en": {
-        "title": "rod"
+        "title": "holly simbol"
       },
       "ru": {
-        "title": "жезл",
+        "title": "святой символ",
         "gender": "he"
       }
     },
-	"img": "type_rod.jpg"
+	"img": "type_focus.jpg"
   },
-  "staff": {
+  "clothes": {
     "text": {
       "en": {
-        "title": "staff"
+        "title": "clothes"
       },
       "ru": {
-        "title": "посох",
+        "title": "одежда",
+        "gender": "she"
+      }
+    },
+	"img": "type_clothes.jpg"
+  },
+  "camp": {
+    "text": {
+      "en": {
+        "title": "camp"
+      },
+      "ru": {
+        "title": "лагерь",
         "gender": "he"
       }
     },
-	"img": "type_staff.jpg"
+	"img": "type_camp.jpg"
   },
-  "scroll": {
+	
+	/*/
+  "smth": {
     "text": {
       "en": {
-        "title": "scroll"
+        "title": "Other"
       },
       "ru": {
-        "title": "свиток",
-        "gender": "he"
-      }
-    },
-	"img": "type_scroll.jpg"
-  },
-  "potion": {
-    "text": {
-      "en": {
-        "title": "potion"
-      },
-      "ru": {
-        "title": "зелье",
+        "title": "прочее",
         "gender": "it"
       }
     },
-	"img": "type_potion.jpg"
-  },
-  "vehicle": {
-    "text": {
-      "en": {
-        "title": "vehicle"
-      },
-      "ru": {
-        "title": "транспорт",
-        "gender": "he"
-      }
-    },
-	"img": "type_vehicle.jpg"
+	"img": "type_smth.jpg"
   }
 	/**/
 }
@@ -1471,7 +1533,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Abacus",
-			"type": "smth",
+			"type": "tool",
 			"rarity": 0,
 			"text": "",
 			"coast": "2 gp",
@@ -1480,13 +1542,14 @@ var allItems = [
 			"weight": "2"
 		},
 		"ru": {
-			"name": "Счеты",			
+			"name": "Счеты",	
+			"nic": "Абак",			
 			"text": "",
 		}
 	}, {
 		"en": {
 			"name": "Acid (vial)",
-			"type": "smth",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "25 gp",
@@ -1501,7 +1564,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Alchemist's fire (flask)",
-			"type": "smth",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "50 gp",
@@ -1540,7 +1603,7 @@ var allItems = [
 			"weight": "1"
 		},
 		"ru": {
-			"name": "СИглы для трубки (50)",			
+			"name": "Иглы для трубки (50)",			
 			"text": "",
 		}
 	}, {
@@ -1566,7 +1629,7 @@ var allItems = [
 			"text": "",
 			"coast": "4 cp",
 			"source": "PHB",
-			"img": "ling_bullets.jpg",
+			"img": "Sling_bullets.jpg",
 			"weight": "1.5"
 		},
 		"ru": {
@@ -1576,7 +1639,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Antitoxin (vial)",
-			"type": "smth",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "50 gp",
@@ -1681,7 +1744,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Ball bearings (bag of 1000)",
-			"type": "control",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 gp",
@@ -1720,13 +1783,13 @@ var allItems = [
 			"weight": "2"
 		},
 		"ru": {
-			"name": "Бочка",			
+			"name": "Корзина",			
 			"text": "",
 		}
 	}, {
 		"en": {
 			"name": "Bedroll",
-			"type": "smth",
+			"type": "camp",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 gp",
@@ -1741,7 +1804,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Bell",
-			"type": "smth",
+			"type": "gear",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 gp",
@@ -1756,7 +1819,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Blanket",
-			"type": "smth",
+			"type": "camp",
 			"rarity": 0,
 			"text": "",
 			"coast": "5 sp",
@@ -1771,7 +1834,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Block and tackle",
-			"type": "smth",
+			"type": "gear",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 sp",
@@ -1786,7 +1849,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Book",
-			"type": "smth",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "25 gp",
@@ -1801,7 +1864,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Bucket",
-			"type": "smth",
+			"type": "container",
 			"rarity": 0,
 			"text": "",
 			"coast": "5 cp",
@@ -1816,7 +1879,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Caltrops (bag of 20)",
-			"type": "smth",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 gp",
@@ -1831,7 +1894,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Candle",
-			"type": "smth",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 cp",
@@ -1846,7 +1909,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Case, crossbow bolt",
-			"type": "smth",
+			"type": "container",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 gp",
@@ -1866,7 +1929,7 @@ var allItems = [
 			"text": "",
 			"coast": "1 gp",
 			"source": "PHB",
-			"img": "Case_ыскщдды.jpg",
+			"img": "Case_scrolls.jpg",
 			"weight": "1"
 		},
 		"ru": {
@@ -1876,7 +1939,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Chain (10 feet)",
-			"type": "smth",
+			"type": "gear",
 			"rarity": 0,
 			"text": "",
 			"coast": "5 gp",
@@ -1890,8 +1953,8 @@ var allItems = [
 		}
 	}, {
 		"en": {
-			"name": "Chalk (l piece)",
-			"type": "smth",
+			"name": "Chalk (1 piece)",
+			"type": "consumables",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 cp",
@@ -1996,7 +2059,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Component pouch",
-			"type": "smth",
+			"type": "tool",
 			"rarity": 0,
 			"text": "",
 			"coast": "25 gp",
@@ -2011,7 +2074,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Crowbar",
-			"type": "smth",
+			"type": "tool",
 			"rarity": 0,
 			"text": "",
 			"coast": "2 gp",
@@ -2116,7 +2179,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Grappling hook",
-			"type": "smth",
+			"type": "gear",
 			"rarity": 0,
 			"text": "",
 			"coast": "2 gp",
@@ -2131,7 +2194,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Hammer",
-			"type": "smth",
+			"type": "tool",
 			"rarity": 0,
 			"text": "",
 			"coast": "1 gp",
@@ -2146,7 +2209,7 @@ var allItems = [
 	}, {
 		"en": {
 			"name": "Hammer, sledge",
-			"type": "smth",
+			"type": "tool",
 			"rarity": 0,
 			"text": "",
 			"coast": "2 gp",
@@ -2172,6 +2235,777 @@ var allItems = [
 		"ru": {
 			"name": "Комплект целителя",			
 			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Amulet",
+			"type": "holly simbol",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Amulet.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Амулет",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Emblem",
+			"type": "holly simbol",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Emblem.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Эмблема",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Reliquary",
+			"type": "holly simbol",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Reliquary.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Реликварий",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Holy water (flask)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "25 gp",
+			"source": "PHB",
+			"img": "Holy_water.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Святая вода (фляга)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Hourglass",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "25 gp",
+			"source": "PHB",
+			"img": "Hourglass.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Песочные часы",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Hunting trap",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Hunting_trap.jpg",
+			"weight": "25"
+		},
+		"ru": {
+			"name": "Охотничий капкан",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Ink (1 ounce bottle)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Ink.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Чернила (бутылочка 30 грамм)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Ink pen",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 cp",
+			"source": "PHB",
+			"img": "Ink_pen.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Писчее перо",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Jug or pitcher",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 cp",
+			"source": "PHB",
+			"img": "Jug.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Кувшин или графин",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Ladder (10-foot)",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 sp",
+			"source": "PHB",
+			"img": "Ladder.jpg",
+			"weight": "25"
+		},
+		"ru": {
+			"name": "Лестница (10 футов)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Lamp",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 sp",
+			"source": "PHB",
+			"img": "Lamp.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Лампа",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Lantern, bullseye",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Lantern_bullseye.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Фонарь, направленный",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Lantern, hooded",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Lantern_hooded.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Фонарь, закрытый",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Lock",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Lock.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Замóк",
+			"nic": "Замок",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Magnifying glass",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "100 gp",
+			"source": "PHB",
+			"img": "Magnifying_glass.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Увеличительное стекло",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Manacles",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Manacles.jpg",
+			"weight": "6"
+		},
+		"ru": {
+			"name": "Кандалы",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Mess kit",
+			"type": "kit",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 sp",
+			"source": "PHB",
+			"img": "Mess_kit.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Столовый набор",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Mirror, steel",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Mirror_steel.jpg",
+			"weight": "1/2"
+		},
+		"ru": {
+			"name": "Зеркало, стальное",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Oil (flask)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 sp",
+			"source": "PHB",
+			"img": "Oil.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Масло (фляга)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Parchment (one sheet)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 sp",
+			"source": "PHB",
+			"img": "Parchment.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Пергамент (1 лист)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Paper (one sheet)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 sp",
+			"source": "PHB",
+			"img": "Paper.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Бумага (1 лист)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Perfume (vial)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Perfume.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Духи́ (флакон)",	
+			"nic": "Парфюм, духи",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Piek, miner's",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Piek_miners.jpg",
+			"weight": "10"
+		},
+		"ru": {
+			"name": "Кирка, горняцкая",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Piton",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 cp",
+			"source": "PHB",
+			"img": "Piton.jpg",
+			"weight": "1/4"
+		},
+		"ru": {
+			"name": "Шлямбур",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Poison, basic (vial)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "100 gp",
+			"source": "PHB",
+			"img": "Poison_basic.jpg",
+			"weight": ""
+		},
+		"ru": {
+			"name": "Яд, простой (флакон)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Pole (10-foot)",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 cp",
+			"source": "PHB",
+			"img": "Pole.jpg",
+			"weight": "7"
+		},
+		"ru": {
+			"name": "Шест (10 футов)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Pot, iron",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Pot.jpg",
+			"weight": "10"
+		},
+		"ru": {
+			"name": "Горшок, железный",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Potion of healing",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "50 gp",
+			"source": "PHB",
+			"img": "POTION_OF_HEALING.jpg",
+			"weight": "1/2"
+		},
+		"ru": {
+			"name": "Зелье лечения",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Pouch",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 sp",
+			"source": "PHB",
+			"img": "Pouch.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Кошель",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Quiver",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Quiver.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Колчан",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Ram, portable",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "4 gp",
+			"source": "PHB",
+			"img": "Ram.jpg",
+			"weight": "35"
+		},
+		"ru": {
+			"name": "Таран, переносной",	
+			"nic": "Таран, портативный",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Rations (1 day)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 sp",
+			"source": "PHB",
+			"img": "Rations.jpg",
+			"weight": "2"
+		},
+		"ru": {
+			"name": "Рационы (1 день)",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Robes",
+			"type": "clothes",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Robes.jpg",
+			"weight": "4"
+		},
+		"ru": {
+			"name": "Ряса",	
+			"nic": "Роба, мантия",			
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Rope, hempen (50 feet)",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Rope_hempen.jpg",
+			"weight": "10"
+		},
+		"ru": {
+			"name": "Верѐвка пеньковая (50 футов)",
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Rope, silk (50 feet)",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "10 gp",
+			"source": "PHB",
+			"img": "Rope_silk.jpg",
+			"weight": "5"
+		},
+		"ru": {
+			"name": "Верѐвка, шѐлковая (50 футов)",
+			"text": "",
+		}
+	}, {
+		"en": {
+			"name": "Sack",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 cp",
+			"source": "PHB",
+			"img": "Sack.jpg",
+			"weight": "1/2"
+		},
+		"ru": {
+			"name": "Мешок",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Scale, merchant's",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Scale.jpg",
+			"weight": "3"
+		},
+		"ru": {
+			"name": "Весы, торговые",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Sealing wax",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 sp",
+			"source": "PHB",
+			"img": "Sealing_wax.jpg",
+			"weight": ""
+		},
+		"ru": {
+			"name": "Сургуч",
+			"nic": "Воск для печати",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Shovel",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Shovel.jpg",
+			"weight": "5"
+		},
+		"ru": {
+			"name": "Лопата",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Signal whistle",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 cp",
+			"source": "PHB",
+			"img": "Signal_whistle.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Сигнальный свисток",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Signet ring",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 gp",
+			"source": "PHB",
+			"img": "Signet_ring.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Кольцо-печатка",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Soap",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 cp",
+			"source": "PHB",
+			"img": "Soap.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Мыло",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Spellbook",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "50 gp",
+			"source": "PHB",
+			"img": "Spellbook.jpg",
+			"weight": "3"
+		},
+		"ru": {
+			"name": "Книга заклинаний",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Spikes, iron (10)",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Spikes.jpg",
+			"weight": "5"
+		},
+		"ru": {
+			"name": "Шипы, железные (10)",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Spyglass",
+			"type": "gear",
+			"rarity": 0,
+			"text": "",
+			"coast": "1000 gp",
+			"source": "PHB",
+			"img": "Spyglass.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Подзорная труба",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Tent, two-person",
+			"type": "camp",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 gp",
+			"source": "PHB",
+			"img": "Tent.jpg",
+			"weight": "20"
+		},
+		"ru": {
+			"name": "Палатка, двуместная",
+			"nic": "Тент двуместный",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Tinderbox",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "5 sp",
+			"source": "PHB",
+			"img": "Tinderbox.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Трутница",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Torch",
+			"type": "consumables",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 cp",
+			"source": "PHB",
+			"img": "Torch.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Факел",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Vial",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 gp",
+			"source": "PHB",
+			"img": "Vial.jpg",
+			"weight": "0"
+		},
+		"ru": {
+			"name": "Флакон",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Waterskin",
+			"type": "container",
+			"rarity": 0,
+			"text": "",
+			"coast": "2 sp",
+			"source": "PHB",
+			"img": "Waterskin.jpg",
+			"weight": "1-5"
+		},
+		"ru": {
+			"name": "Бурдюк",
+			"text": ""
+		}
+	}, {
+		"en": {
+			"name": "Whetstone",
+			"type": "tool",
+			"rarity": 0,
+			"text": "",
+			"coast": "1 cp",
+			"source": "PHB",
+			"img": "Whetstone.jpg",
+			"weight": "1"
+		},
+		"ru": {
+			"name": "Точильный камень",
+			"text": ""
 		}
 	}
 ]
